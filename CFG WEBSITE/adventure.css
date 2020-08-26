@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia;
+    font-size: 20px;
+    color: #232323;
+    text-align: center;
+}
+
+header {
+    padding: 100px;
+    text-align: center;
+    background-image:url(https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80) ;
+}
+
+
+section {
+    margin: auto;
+    width: 100%;
+    padding: 50px;
+}
+
+aside {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-top: 8px;
+    opacity: 0.95;
+    font-size: 0.7em;
+    width: 50%;
+}
+
+/* TEXT */
+h1 {
+    background-color: white;
+    opacity: 0.95;
+    font-size: 1em;
+}
+
+@media (min-width: 1110px) {
+    h1 {
+        letter-spacing: 10px;
+        width: 50%;
+        margin: 0 auto;
+        font-size: 2em;
+    }
+}
+
+p {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    line-height: 30px;
+    padding-inline: 30px;
+}
+
+h3 {
+    color: darkgrey;
+    line-height: normal;
+    font-size: x-large;
+}
+
+
+@media screen and (max-width: 600px) {
+    .responsive {
+        width: 100%;
+        margin: 3px 0px;
+        flex: 100%;
+        max-width: 75%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .responsive {
+        width: 100%;
+        margin: 6px 0px;
+        flex: 100%;
+        max-width: 75%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .responsive {
+        width: 100%;
+        margin: 3px 0px;
+        flex: 100%;
+        max-width: 75%;
+    }
+}
+
+/* NAV */
+
+.nav-item-container {
+    padding: 0;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-evenly;
+    float: middle;
+    flex-grow: 4;
+    margin: 0;
+    font-weight: 800;
+}
+
+.nav-item-container li {
+    display: inline-block;
+    padding: 5px;
+}
+
+li.nav-item a:hover {
+    text-decoration-thickness: 5px;
+}
+
+@media (min-width: 1110px) {
+    h1 {
+        letter-spacing: 10px;
+        width: 50%;
+        margin: 0 auto;
+        font-size: 2em;
+    }
+}
+
+
+head, body, footer {
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* PICTURES */
+
+.row {
+    background: gold;
+}
+
+
+div.gallery:hover {
+    border: 5px solid lightslategray;
+}
+
+div.gallery img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+    padding-left: 42px;
+}
+
+.dracpic {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+.haunting {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .it {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+        }
+    
+.frank {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+}
+
+.responsive {
+    padding: 5px 5px;
+    width: 33%;
+}
+
+div.title {
+    font-style: italic;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 25%;
+    padding: 5px;
+}
+
+/* INDEX 2 */
+
+div.titled {
+    font-style: italic;
+    font-size: 35px;
+}
+
+
+/* COMMENT */
+
+div.name {
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+#exampleFormControlInput1 {
+    width: 300px;
+    font-size: 15px;
+    margin: auto;
+    padding: 10px;
+}
+
+div.comment {
+    padding-bottom: 5px;
+    padding-top: 15px;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+#exampleFormControlTextarea1 {
+    width: 500px;
+    font-size: 15px;
+    height: 80px;
+    margin: auto;
+    padding: 10px;
+}
+
+div.submit {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    text-align: center;
+}
+

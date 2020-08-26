@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap and FontAwesome cdn links -->
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+    />
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"
+    /> 
+
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Amiri&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="cssCodeBookStack.css">
+</head>
+
+<body>
+    <!-- ==== NAV BAR (BOOTSTRAP) ===== -->
+    <!-- use the "fixed-top" bootstrap class to fix the nav bar to the top of page.
+         BUT, remember to add enough padding to the top of the <body> -->
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+                <a class="navbar-brand" href="./home.html">bookStack</a>
+          
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+          
+                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="./home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./genre.html">Genres</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./featured.html">Featured</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./profile.html">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./questionnaire.html">Questionnaire</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+    
+    <header class="primary-header">
+        <h1>bookStack</h1>
+        <aside>QUESTIONNAIRE</aside>
+    </header>
+
+    <section>
+        <p>
+         Do you have a favourite book you want us to review? A genre you're dying to get some new recommendations to grow your bookStack? Or have you written a review you'd like to see featured on our site? Let us know by filling out the form below!
+        </p>
+    </section>
+
+    <form>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Name</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Name">
+    </div>
+    <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+    <label for="exampleInputPassword1">Favourite Book</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Book">
+    </div>
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Comments</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tell us your thoughts"></textarea>
+    </div>
+    <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">I consent to sharing my information with bookStack</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  
+
+</body>

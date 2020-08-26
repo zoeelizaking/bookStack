@@ -1,0 +1,138 @@
+<!-- Code included in this work are relating to or directly adapted from various templates found in w3school. The writer is therefore unable to accept all credit, please refer to the CSS for more information-->
+<!DOCTYPE html>
+<html>
+<title>bookStack CSS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="cssCodeBookStack.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+body {font-family: "Comic Sans MS", cursive, sans-serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+<body>
+    <!-- ==== NAV BAR (BOOTSTRAP) ===== -->
+    <!-- use the "fixed-top" bootstrap class to fix the nav bar to the top of page.
+         BUT, remember to add enough padding to the top of the <body> -->
+          <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="./home.html">bookStack</a>
+      
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="./home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./genre.html">Genres</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="./featured.html">Featured</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./profile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./questionnaire.html">Questionnaire</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!-- ==== E
+
+< Header -->
+<header class="b-stack-display-container b-stack-content b-stack-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="b-stack-image" src="img/book-stack.jpg" alt="Hamburger Catering" width="1600" height="800">
+  <div class="b-stack-display-bottomleft b-stack-padding-large b-stack-opacity">
+    <h1 class="b-stack-xxlarge">bookStack</h1>
+  </div>
+</header>
+
+
+<p>Go ahead... judge a book by its cover. I dare you. 
+</p>
+<!-- Page content -->
+<div class="b-stack-content" style="max-width:1100px">
+
+    <!-- Featured Section -->
+   <div class="b-stack-container b-stack-padding-32" id="Featured">
+    <h3 class="b-stack-border-bottom b-stack-border-light-grey b-stack-padding-16">Featured</h3>
+  </div>
+
+  <div class="b-stack-row-padding">
+    <div class="b-stack-col l3 m6 b-stack-margin-bottom">
+      <div class="b-stack-display-container">
+        <div class="b-stack-display-topleft b-stack-black b-stack-padding">genre</div>
+        <img src="https://1.bp.blogspot.com/-HdU_UFaxWjE/XfyiUQlKa-I/AAAAAAAAFwg/KZaWpnKVosQ8hzXgUFf7rpAevKOmcNhFgCLcBGAsYHQ/s1600/Credence-EBOOK.jpg" height="350" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="b-stack-col l3 m6 b-stack-margin-bottom">
+      <div class="b-stack-display-container">
+        <div class="b-stack-display-topleft b-stack-black b-stack-padding">genre</div>
+        <img src="https://vip.nypost.com/wp-content/uploads/sites/2/2020/04/normal-people.jpg?quality=90&strip=all&w=292" height="350" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="b-stack-col l3 m6 b-stack-margin-bottom">
+      <div class="b-stack-display-container">
+        <div class="b-stack-display-topleft b-stack-black b-stack-padding">genre</div>
+        <img src="https://i1.wp.com/www.samuelthomasdavies.com/wp-content/uploads/2017/11/The-Subtle-Art-of-Not-Giving-a-Fck-Summary.png?resize=203%2C300&ssl=1" height="350" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="b-stack-col l3 m6 b-stack-margin-bottom">
+      <div class="b-stack-display-container">
+        <div class="b-stack-display-topleft b-stack-black b-stack-padding">genre</div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzI7pZotNLvNm1Cw_kAyZ8Xvvoilx42qd9gg&usqp=CAU" height="350" alt="House" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+  <div class="b-stack-row-padding">
+    <div class="b-stack-col l3 m6 b-stack-margin-bottom">
+      <div class="b-stack-display-container">
+        <div class="b-stack-display-topleft b-stack-black b-stack-padding">genre</div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR5MVIXIwnDk5uSO6nMpy8xHIRYsSrphYWy6Q&usqp=CAU" height="350" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="b-stack-col l3 m6 b-stack-margin-bottom">
+      <div class="b-stack-display-container">
+        <div class="b-stack-display-topleft b-stack-black b-stack-padding">genre</div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQDAMLf2W9F_lCgHDswEi_WxG3dpiiVMf5JHA&usqp=CAU" height="350" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="b-stack-col l3 m6 b-stack-margin-bottom">
+      <div class="b-stack-display-container">
+        <div class="b-stack-display-topleft b-stack-black b-stack-padding">genre</div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRuTXpdcFSpHxjvQfHQ5eWptdUWJ7kxsb3zgw&usqp=CAU" height="350" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="b-stack-col l3 m6 b-stack-margin-bottom">
+      <div class="b-stack-display-container">
+        <div class="b-stack-display-topleft b-stack-black b-stack-padding">genre</div>
+        <img src="https://lithub.com/wp-content/uploads/2018/12/184224_1326895.794x1200_q95_crop-smart_upscale.jpg" height="350" alt="House" style="width:99%">
+      </div>
+    </div>
+  </div>
+
+    
+   
+
+
+  <!-- Contact Section -->
+
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="b-stack-center b-stack-light-grey b-stack-padding-32">
+  <p></a></p>
+</footer>
+
+</body>
+</html>

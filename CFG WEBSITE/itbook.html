@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="thriller.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="new.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<!-- ==== NAV BAR (BOOTSTRAP) ===== -->
+    <!-- use the "fixed-top" bootstrap class to fix the nav bar to the top of page.
+         BUT, remember to add enough padding to the top of the <body> -->
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+                <a class="navbar-brand" href="./home.html">bookStack</a>
+          
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+          
+                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="./home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./genre.html">Genres</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./featured.html">Featured</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./profile.html">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./questionnaire.html">Questionnaire</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+              
+    
+   <!-- Header -->
+   <header class="primary-header">
+    <h1>bookStack</h1>
+    <aside>Thriller</aside>
+</header>
+
+
+<div class="itcolor">
+<div class="it">
+    <a target="_blank" href="img/IT.jpg">
+        <img src="./img/IT.jpg" alt="Stephen King's IT" width="500" />
+    </a>
+    </div>
+    <div class="desc"><h3>Stephen King's <div class="title">IT</div></h3>
+    <p>Most people will have heard of Stephen King's 'IT' from the 2017 supernatural horror film and the feared character of Pennywise the Clown. The 1986 novel follows the experiences of seven children who are terrorised by an evil entity that exploits their biggest fears.</p>
+    <p>By alternating between two periods throughout the story, King draws attention to his theme of childhood trauma and its recurrent echoes in adulthood.</p>
+
+
+
+
+            </div>
+
+            <form>
+                <div class="form-group">
+                    <div class="name">
+                  <label for="exampleFormControlInput1">Name</label> </div>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name"> 
+                </div>
+                <div class="form-group">
+                    <div class="comment">
+                  <label for="exampleFormControlTextarea1">Add a comment</label> </div>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+              </form>
+              
+              <div class="submit">
+              <input class="btn btn-primary" type="submit" value="Submit">              
+              </div>
+            </div>
+
+              
+    
+</body>
+</html>
